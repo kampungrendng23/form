@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-1 | Data Pemesanan Pizza</title>
+  </head>
+  <body style="background-color: rgb(135, 222, 164)">
+    <form action="" method="post">
+      <h1 style="font-family: monospace">
+        Black Goose Distro | Pizza-on-Demand
+      </h1>
+      <hr />
+      <p style="font-family: sans-serif">
+        Our 12" wood-fired pizzas are available for delivary. Build your <br />
+        custom pizza and we'll deliver within an hour.
+      </p>
+      <br />
+      <table style="font-family: sans-serif">
+        <tr>
+          <td>Your Information</td>
+          <td>:</td>
+        </tr>
+        <tr>
+          <td><label for="username" name="customername">Name</label></td>
+          <td>:</td>
+          <td><input type="text" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="address" name="address">Address</label></td>
+          <td>:</td>
+          <td>
+            <textarea name="address" id="address" cols="21" rows="2"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="nomer">Telepon Number</label></td>
+          <td>:</td>
+          <td><input type="tel" id="nomer" /></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email</label></td>
+          <td>:</td>
+          <td><input type="email" id="email" /></td>
+        </tr>
+      </table>
+      <br />
+
+      Delivery instruction <br />
+      <textarea
+        name=""
+        id=""
+        cols="38"
+        rows="5"
+        placeholder="No more than 400 characters long"
+        maxlength="400"
+      ></textarea>
+      <br />
+      <p style="font-family: sans-serif">
+        <b> Design Your Dream Pizza</b><br />Pizza specs
+      </p>
+      <table style="font-family: sans-serif">
+        <tr>
+          <td><label for="" name="crust"> Crust (Choose one)</label></td>
+          <td>:</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="crust" value="cw" />Classic white</td>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" name="crust" id="" value="mu" />Multigrain
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" name="crust" id="" value="cs" />Cheese-Stuffet
+            crust
+          </td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="crust" value="gf" />Gluten-free</td>
+        </tr>
+      </table>
+      <br />
+      <table style="font-family: sans-serif">
+        <tr>
+          <td>Toppings (Choose as many as you want)</td>
+          <td>:</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="topping[]" />Red sauce</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="topping[]" />White sauce</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="topping[]" />Mozarella cheese</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="topping[]" />Pepperoni</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="topping[]" />Mushrooms</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="topping[]" />Peppers</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="topping[]" />Anchovies</td>
+        </tr>
+      </table>
+      <br />
+      <table>
+        <tr>
+          <td>Number</td>
+        </tr>
+        <tr>
+          <td><label for="number">How many Pizzas</label></td>
+          <td>:</td>
+          <td><input type="number" name="" id="number" max="6" min="1" /></td>
+        </tr>
+      </table>
+      <input type="submit" value="SUBMIT" />
+      <input type="reset" value="RESET" />
+    </form>
+  </body>
+</html>
